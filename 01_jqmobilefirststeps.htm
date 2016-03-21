@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="author" content="Sophia">
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile.min.css">
+		
+		<link rel="stylesheet" href="themes/ThemeOne.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	
+  
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+		
+		<script>
+			
+			$(document).ready(function() {
+			
+				//Testausgabe
+				//alert("Es funktioniert");
+				
+				
+			});
+		
+		</script>
+		
+		
+		<div data-role="page" id="seite1">
+		
+			<div data-role="header">
+			 <a href="seite1" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+				<h1>Unsere erste Webapp mit jQuery Mobile</h1>
+			</div>
+			
+			<div data-role="content">
+				Hier findet sich der Inhalt unserer wunderschönen
+				Web App.
+				
+				
+				<br />
+				<img src="img/astrid.jpg" alt="Astrid Lindgren">
+				Zur zweiten Seite geht's 
+				<a data-rel="dialog" "data-transition="slideup" href="#seite2">hier</a>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Sophia</h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="seite2">
+		
+			<div data-role="header">
+				<h1>Zweite Seite</h1>
+			</div>
+			
+			<div data-role="content">
+				jQuery Mobile ist wunderbar!<br />
+				Zur ersten Seite geht's
+				<a data-transition="flip" href="#seite1">hier</a>
+				<br />
+				Zur dritten Seite geht's 
+				<a data-transition="slideup" href="#seite3">hier</a>
+			</div>
+				<div data-role="footer">
+					<h4>&copy; Sophia</h4>
+				</div>
+			</div>
+			
+			<div data-role="page" id="seite3">
+				<div data-role="header">
+					<h1>Dritte Seite</h1>
+				</div>
+			
+				<div data-role="content">
+					jQuery Mobile ist wunderbar!<br />
+					Zur ersten Seite geht's
+					<a data-transition="flip" href="#seite1">hier</a>
+					<br />
+					Zur vierten Seite geht's 
+					<a data-transition="slideup" href="#seite4">hier</a>
+				</div>
+				<div data-role="footer">
+					<h4>&copy; Sophia</h4>
+				</div>
+			</div>
+			
+			<div data-role="page" id="seite4">
+				<div data-role="header">
+					<h1>Vierte Seite</h1>
+				</div>
+			
+				<div data-role="content">
+					jQuery Mobile ist wunderbar!<br />
+					Zur ersten Seite geht's
+					<a data-transition="flip" href="#seite1">hier</a>
+					<br />
+					Zur fünften Seite geht's 
+					<a data-transition="slideup" href="#seite5">hier</a>
+				</div>
+				<div data-role="footer">
+					<h4>&copy; Sophia</h4>
+				</div>
+			</div>
+			
+				<div data-role="page" id="seite5">
+				<div data-role="header">
+					<h1>Fünfte Seite</h1>
+				</div>
+			
+				<div data-role="content">
+					jQuery Mobile ist wunderbar!<br />
+					Zur ersten Seite geht's
+					<a data-transition="flip" href="#seite1">hier</a>
+				</div>
+				<div data-role="footer">
+					<h4>&copy; Sophia</h4>
+				</div>
+			</div>
+		
+		
+		
+		</div>
+		
+		
+	</body>
+</html> 
+
+
